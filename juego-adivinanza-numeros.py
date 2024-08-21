@@ -21,14 +21,14 @@ def juego_adivinanza():
             if adivinanza < numero_secreto:
                 print(f"el nuemro secreto es mayor al:  {adivinanza}")
             elif adivinanza > numero_secreto:
-                print(f"el nuemro secreto es mayor al:  {adivinanza}")
+                print(f"el nuemro secreto es menor al:  {adivinanza}")
             else:
                 print(f"Ganaste en {intentos} intentos")
                 adivinado = True
         else:
-            print("ingrese numero valido")    
+            print("ingrese numero valido, por favor")    
                    
 juego_adivinanza()
 
 print("Cerramos")    
-            
+        
